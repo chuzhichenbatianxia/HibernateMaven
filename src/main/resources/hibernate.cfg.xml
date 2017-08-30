@@ -25,9 +25,9 @@
     <!--  格式化sql语句  -->
     <property name="format_sql">true</property>
 
-    <!--  根据需要创建数据库  -->
-    <property name="hbm2ddl.auto">create</property>
-    <mapping class="com.chuyu.pojo.Employee"></mapping>
+    <!--  根据需要创建数据库  如果使用该属性一运行程序就会重新创建表-->
+    <!--<property name="hbm2ddl.auto">create</property>-->
+<!--    <mapping class="com.chuyu.pojo.Employee"></mapping>-->
     <mapping resource="com/chuyu/pojo/Employee.hbm.xml"></mapping>
   </session-factory>
 </hibernate-configuration>
