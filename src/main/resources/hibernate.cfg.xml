@@ -29,5 +29,7 @@
     <!--<property name="hbm2ddl.auto">create</property>-->
 <!--    <mapping class="com.chuyu.pojo.Employee"></mapping>-->
     <mapping resource="com/chuyu/pojo/Employee.hbm.xml"></mapping>
+    <mapping resource="com/chuyu/pojo/TGroup.hbm.xml"></mapping>
+    <mapping resource="com/chuyu/pojo/TUser.hbm.xml"></mapping>
   </session-factory>
 </hibernate-configuration>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.chuyu.pojo.TUser" table="t_user" schema="hibernate">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="neme" column="neme"/>
+        <!--多对一映射-->
+        <many-to-one name="group" class="com.chuyu.pojo.TGroup" column="groupId"/>
+    </class>
+</hibernate-mapping>
