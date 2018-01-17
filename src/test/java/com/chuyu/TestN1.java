@@ -15,7 +15,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Created by zhuyuping on 2017-08-30.
+ * Created by zhuyuping2 on 2017-08-30.
  */
 public class TestN1 {
     private SessionFactory sessionFactory;
