@@ -15,7 +15,7 @@
   </properties>
 
   <dependencies>
-    <!-- 添加Junit依赖朱玉平 -->
+    <!-- 添加Junit依赖朱玉平2 -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
